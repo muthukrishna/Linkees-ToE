@@ -88,7 +88,7 @@ function BookLinks() {
     },
   ];
 
-  return <Linktree cardItems={items} />;
+  return <Linkees cardItems={items} />;
 }
 
 ReactDOM.render(
