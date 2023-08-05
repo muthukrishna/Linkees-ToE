@@ -62,7 +62,6 @@ function BookLinks() {
   };
 
   const items = [
-    name: 'Booklinks',
     {
       title: 'Amazon',
       subtitle: `Amazon ${countryCode}`,
@@ -89,7 +88,7 @@ function BookLinks() {
     },
   ];
 
-  return <Linkees cardItems={items} />;
+  return <Linkees cardItems={items} name={''} />;
 }
 
 ReactDOM.render(
