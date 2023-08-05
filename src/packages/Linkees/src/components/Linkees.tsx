@@ -19,7 +19,7 @@ function Linkees({
 }): JSX.Element {
   return (
     <div className="App">
-      <Header avatar={headerAvatar} name={name} />
+      <Header avatar={headerAvatar} />
       <div className="container row">
         {cardItems.map((item, i: number) => {
           const converImage: string =
