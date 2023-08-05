@@ -63,25 +63,25 @@ function BookLinks() {
     {
       title: 'Amazon',
       subtitle: `Amazon ${countryCode}`,
-      type: CHANNEL_TYPES.AMAZON,
+      type: CHANNEL_TYPES.LINKEDIN,
       link: `https://www.amazon.${amazonDomains[countryCode] || 'com'}/Theory-Everyone-Here-Where-Going/dp/1399810634`,
     },
     {
       title: 'Local Bookstore',
       subtitle: 'Name of local book store',
-      type: CHANNEL_TYPES.BOOKSTORE,
+      type: CHANNEL_TYPES.LINKEDIN,
       link: `https://localbookstore.${localBookstoreDomains[countryCode] || 'com'}`,
     },
     {
       title: 'Publisher',
       subtitle: 'Name of publisher',
-      type: CHANNEL_TYPES.PUBLISHER,
+      type: CHANNEL_TYPES.LINKEDIN,
       link: `https://publisher.${publisherDomains[countryCode] || 'com'}`,
     },
     {
       title: 'Another local bookstore',
       subtitle: 'Name of another local book store',
-      type: CHANNEL_TYPES.BOOKSTORE,
+      type: CHANNEL_TYPES.LINKEDIN,
       link: `https://anotherlocalbookstore.${anotherBookstoreDomains[countryCode] || 'com'}`,
     },
   ];
