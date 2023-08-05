@@ -5,6 +5,7 @@ import youtube from '../assets/youtube.jpeg';
 import dribbble from '../assets/dribbble.png';
 import github from '../assets/github.png';
 import telegram from '../assets/telegram.png';
+import amazon from '../assets/amazon.png';
 import twitter from '../assets/twitter.png';
 
 import { CHANNEL_TYPES } from '../constants';
@@ -17,5 +18,6 @@ export const CHANNEL_TYPE_VS_COVER_IMAGE = {
   [CHANNEL_TYPES.DRIBBLE]: dribbble,
   [CHANNEL_TYPES.GITHUB]: github,
   [CHANNEL_TYPES.TELEGRAM]: telegram,
+  [CHANNEL_TYPES.AMAZON]: amazon,
   [CHANNEL_TYPES.TWITTER]: twitter,
 };

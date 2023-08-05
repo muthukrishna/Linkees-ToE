@@ -7,5 +7,6 @@ export const CHANNEL_TYPES = {
   TWITTER: 'TWITTER',
   WEBSITE: 'WEBSITE',
   YOUTUBE: 'YOUTUBE',
+  AMAZON: 'AMAZON',
   OTHER: 'OTHER',
 };

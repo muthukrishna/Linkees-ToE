@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "framer-motion": "^4.1.17",
+    "axios": "^1.4.0",
     "url-loader": "^4.1.1"
   },
   "peerDependencies": {
