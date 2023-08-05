@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import { Linkee, CHANNEL_TYPES } from 'linkees';
+import { Linktree, CHANNEL_TYPES } from 'linkees';
 
 import './css/normalize.css';
 
@@ -63,7 +63,7 @@ function BookLinks() {
     {
       title: 'Amazon',
       subtitle: `Amazon ${countryCode}`,
-      type: CHANNEL_TYPES.TELEGRAM,
+      type: CHANNEL_TYPES.AMAZON,
       link: `https://www.amazon.${amazonDomains[countryCode] || 'com/Theory-Everyone-Science-Where-Going/dp/026204837X'}`,
     },
     {
@@ -86,7 +86,7 @@ function BookLinks() {
     },
   ];
 
-  return <Linkee cardItems={items} />;
+  return <Linktree cardItems={items} />;
 }
 
 ReactDOM.render(
