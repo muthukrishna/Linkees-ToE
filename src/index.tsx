@@ -18,7 +18,7 @@ function BookLinks() {
       });
   }, []);
 
-  const amazonDomains = {
+  const amazonDomains: { [key: string]: string } = {
     'US': 'com/Theory-Everyone-Science-Where-Going/dp/026204837X',
     'AU': 'com.au/Theory-Everyone-Here-Where-Going/dp/1399810634',
     'GB': 'co.uk/Theory-Everyone-Here-Where-Going/dp/1399810634',
@@ -38,21 +38,21 @@ function BookLinks() {
     // Add more as needed
   };
 
-  const localBookstoreDomains = {
+  const localBookstoreDomains: { [key: string]: string } = {
     'US': 'com',
     'GB': 'co.uk',
     'DE': 'de',
     // Add more as needed
   };
 
-  const publisherDomains = {
+  const publisherDomains: { [key: string]: string } = {
     'US': 'com',
     'GB': 'co.uk',
     'DE': 'de',
     // Add more as needed
   };
 
-  const anotherBookstoreDomains = {
+  const anotherBookstoreDomains: { [key: string]: string } = {
     'US': 'com',
     'GB': 'co.uk',
     'DE': 'de',
