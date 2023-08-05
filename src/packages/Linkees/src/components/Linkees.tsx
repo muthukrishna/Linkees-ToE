@@ -11,15 +11,15 @@ import { CHANNEL_TYPES } from '../constants';
 function Linkees({
   headerAvatar,
   cardItems,
-  //name,
+  name,
 }: {
   headerAvatar?: string;
   cardItems: ItemType[];
-  //name: string;
+  name: string;
 }): JSX.Element {
   return (
     <div className="App">
-      <Header avatar={headerAvatar} />
+      <Header avatar={headerAvatar} name={name} />
       <div className="container row">
         {cardItems.map((item, i: number) => {
           const converImage: string =

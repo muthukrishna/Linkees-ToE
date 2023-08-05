@@ -62,6 +62,7 @@ function BookLinks() {
   };
 
   const items = [
+    name: 'Booklinks',
     {
       title: 'Amazon',
       subtitle: `Amazon ${countryCode}`,
