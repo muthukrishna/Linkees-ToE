@@ -63,7 +63,7 @@ function BookLinks() {
     {
       title: 'Amazon',
       subtitle: `Amazon ${countryCode}`,
-      type: CHANNEL_TYPES.LINKEDIN,
+      type: CHANNEL_TYPES.TELEGRAM,
       link: `https://www.amazon.${amazonDomains[countryCode] || 'com/Theory-Everyone-Science-Where-Going/dp/026204837X'}`,
     },
     {
