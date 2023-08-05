@@ -12,7 +12,7 @@
     "react": "latest",
     "react-dom": "latest",
     "react-scripts": "^5.0.1",
-    "linkees": "1.0.2"
+    "linkees": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

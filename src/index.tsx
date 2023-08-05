@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import { Linkees, CHANNEL_TYPES } from 'linkees';
+import { Linktree, CHANNEL_TYPES } from 'linkees';
 
 import './css/normalize.css';
 
