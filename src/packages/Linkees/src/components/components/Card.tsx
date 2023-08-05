@@ -23,7 +23,7 @@ const variants = {
 function Card(props: ICard): JSX.Element {
   return (
     <a href={props.link} target="_blank" rel="noopener noreferrer">
-      <motion.div className="Card one columns" initial="hidden" animate="visible" custom={props.i} variants={variants}>
+      <motion.div className="Card six columns" initial="hidden" animate="visible" custom={props.i} variants={variants}>
         <img className="cover" src={props.cover} alt=""></img>
         <div className="data">
           <h2>{props.title}</h2>
