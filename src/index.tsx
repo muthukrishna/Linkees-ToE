@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
 //import { Linktree, CHANNEL_TYPES } from 'linkees';
-import { CHANNEL_TYPES } from './packages/Linkees/src/components/constant';
+import { CHANNEL_TYPES } from './packages/Linkees/src/constants';
 import { Linkees } from './packages/Linkees/src/components/Linkees';
 
 import './css/normalize.css';
