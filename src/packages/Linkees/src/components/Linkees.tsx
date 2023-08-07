@@ -1,4 +1,5 @@
 import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header';
 import Card from './components/Card';
 import Footer from './components/Footer';
@@ -52,7 +53,7 @@ function Linkees({
       author: "Andrew McAfee, MIT Sloan School of Management, author of The Geek Way and coauthor of The Second Machine Age",
     },
     {
-      text: "The best book I’ve read in a decade. A sprightly page-turner that entertains with specifics, astonishes with universals, and reframes the big issues facing humanity.",
+      text: "The best book I've read in a decade. A sprightly page-turner that entertains with specifics, astonishes with universals, and reframes the big issues facing humanity.",
       author: "Robert Klitgaard, author of Controlling Corruption and Tropical Gangsters",
     },
     {
@@ -81,8 +82,12 @@ function Linkees({
     },
   ];
   
-  // Randomly select a quote from the array
-  const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  const [selectedQuote, setSelectedQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
+
+  const handleQuoteClick = () => {
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    setSelectedQuote(randomQuote);
+  };
 
   return (
     <div className="App">
