@@ -109,6 +109,13 @@ p {
   font-size: 120%;
 }
 
+/* Smaller font size for smaller windows */
+@media (max-width: 768px) {
+  .blurb {
+    font-size: 0.8rem;
+  }
+}
+
 .Footer {
   font-size: small;
   text-align: center;
