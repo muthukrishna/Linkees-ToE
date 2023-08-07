@@ -96,6 +96,13 @@ p {
   height: 94px;
 }
 
+.blurb {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  height: 120px;
+}
+
 .Footer {
   font-size: small;
   text-align: center;
