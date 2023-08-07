@@ -161,7 +161,7 @@ function BookLinks() {
     // Add more as needed
   };
 
-  const PUBLISHER_BY_COUNTRY: { [key: string]: CHANNEL_TYPES } = {
+  const PUBLISHER_BY_COUNTRY: { [key: string]: typeof CHANNEL_TYPES } = {
     'US': CHANNEL_TYPES.MIT,
     'AU': CHANNEL_TYPES.HACHETTE,
     'GB': CHANNEL_TYPES.BASIC,
@@ -180,7 +180,7 @@ function BookLinks() {
     'IN': CHANNEL_TYPES.HACHETTE,
     };
 
-    const BOOKSTORE1_BY_COUNTRY: { [key: string]: CHANNEL_TYPES } = {
+    const BOOKSTORE1_BY_COUNTRY: { [key: string]: typeof CHANNEL_TYPES } = {
       'US': CHANNEL_TYPES.PENGUIN,
       'AU': CHANNEL_TYPES.AU1,
       'GB': CHANNEL_TYPES.GB1,
@@ -199,7 +199,7 @@ function BookLinks() {
       'IN': CHANNEL_TYPES.IN1,
     };
     
-    const BOOKSTORE2_BY_COUNTRY: { [key: string]: CHANNEL_TYPES } = {
+    const BOOKSTORE2_BY_COUNTRY: { [key: string]: typeof CHANNEL_TYPES } = {
       'US': CHANNEL_TYPES.MIT,
       'AU': CHANNEL_TYPES.AU2,
       'GB': CHANNEL_TYPES.GB2,
