@@ -1,3 +1,4 @@
+//sites
 import website from '../assets/website.png';
 import instagram from '../assets/instagram.png';
 import linkedin from '../assets/linkedin.jpg';
@@ -8,20 +9,7 @@ import telegram from '../assets/telegram.png';
 import amazon from '../assets/amazon.png';
 import twitter from '../assets/twitter.png';
 
-import { CHANNEL_TYPES, BLURBS } from '../constants';
-
-export const CHANNEL_TYPE_VS_COVER_IMAGE = {
-  [CHANNEL_TYPES.WEBSITE]: website,
-  [CHANNEL_TYPES.INSTAGRAM]: instagram,
-  [CHANNEL_TYPES.LINKEDIN]: linkedin,
-  [CHANNEL_TYPES.YOUTUBE]: youtube,
-  [CHANNEL_TYPES.DRIBBLE]: dribbble,
-  [CHANNEL_TYPES.GITHUB]: github,
-  [CHANNEL_TYPES.TELEGRAM]: telegram,
-  [CHANNEL_TYPES.AMAZON]: amazon,
-  [CHANNEL_TYPES.TWITTER]: twitter,
-};
-
+//blurbs
 import henrich from '../assets/website.png';
 import armstrong from '../assets/instagram.png';
 import syed from '../assets/linkedin.jpg';
@@ -37,6 +25,20 @@ import hoffman from '../assets/amazon.png';
 import heywood from '../assets/amazon.png';
 import bodanis from '../assets/amazon.png';
 
+import { CHANNEL_TYPES, BLURBS } from '../constants';
+
+export const CHANNEL_TYPE_VS_COVER_IMAGE = {
+  [CHANNEL_TYPES.WEBSITE]: website,
+  [CHANNEL_TYPES.INSTAGRAM]: instagram,
+  [CHANNEL_TYPES.LINKEDIN]: linkedin,
+  [CHANNEL_TYPES.YOUTUBE]: youtube,
+  [CHANNEL_TYPES.DRIBBLE]: dribbble,
+  [CHANNEL_TYPES.GITHUB]: github,
+  [CHANNEL_TYPES.TELEGRAM]: telegram,
+  [CHANNEL_TYPES.AMAZON]: amazon,
+  [CHANNEL_TYPES.TWITTER]: twitter,
+};
+
 export const BLURB_VS_COVER_IMAGE = {
   [BLURBS.HENRICH]: henrich,
   [BLURBS.ARMSTRONG]: armstrong,
@@ -45,7 +47,7 @@ export const BLURB_VS_COVER_IMAGE = {
   [BLURBS.GELFAND]: gelfand,
   [BLURBS.FRANKOPAN]: frankopan,
   [BLURBS.RIDLEY]: ridley,
-  [BLURBS.MCAFEE]: mcafee, // Multiple amazon.png imports, please confirm the mapping
+  [BLURBS.MCAFEE]: mcafee, 
   [BLURBS.KLITGAARD]: klitgaard,
   [BLURBS.HALL]: hall,
   [BLURBS.YOELI]: yoeli,
