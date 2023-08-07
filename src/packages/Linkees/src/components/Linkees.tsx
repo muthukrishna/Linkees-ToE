@@ -28,7 +28,7 @@ function Linkees({
       <div className="container row">
         <a href="https://michael.muthukrishna.com/book" target="_blank" rel="noopener noreferrer">
           <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
-            <img className="cover" src={selectedImage} alt="" />
+            <img className="blurb" src={selectedImage} alt="" />
           </div>
         </a>
       </div>
