@@ -79,6 +79,14 @@ function Linkees({
       text: "I loved this book. A Theory of Everyone is a 'big book' bustling with 'big ideas', taking on some of humanity's most intractable issues — securing energy abundance, fostering innovation, increasing human cooperation between different groups, and figuring out how to leverage god-like technologies for good. The book lays out a path, along with various evidence-based strategies, for us humans to resolve these wicked problems so together we can create a more prosperous, abundant, and flourishing future. Required reading for anyone interested in the most important questions of our time.",
       author: "Kurtis Lockhart, Executive Director, Charter Cities Institute",
     },
+    {
+      text: "One of today's most brilliant minds weighs in on what ails us and how to fix it. Muthukrishna breaks life's biggest questions into their component parts, then reveals how artificial intelligence, physics, history, evolutionary biology and psychology can together answer them, in a way that will keep you up at night. The most important book you will quickly read this year – good luck not telling your friends about it!",
+      author: "Brian Hare, New York Times Bestselling author, Center for Cognitive Neuroscience, Duke University",
+    },
+    {
+      text: "A Theory of Everyone delivers both an overarching theory and a practical toolkit for understanding and improving the human condition. What could be more important than that?",
+      author: "David Sloan Wilson, author of This View of Life: Completing the Darwinian Revolution",
+    },
   ];
   
   const [selectedQuote, setSelectedQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
