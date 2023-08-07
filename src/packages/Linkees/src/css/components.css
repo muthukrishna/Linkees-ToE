@@ -93,14 +93,22 @@ p {
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
-  height: 150px;
+  height: 170px;
 }
 
 .blurb {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 8px;
-  height: 120px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  box-sizing: border-box;
+  max-width: 30em;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin: 40px auto;
+  text-transform: lowercase;
+  line-height: 145%;
+  font-size: 2em;
+  font-variant: small-caps;
 }
 
 .Footer {
