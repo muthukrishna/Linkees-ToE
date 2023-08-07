@@ -4,16 +4,8 @@ import Card from './components/Card';
 import Footer from './components/Footer';
 
 import { ItemType } from '../ts';
-import { CHANNEL_TYPE_VS_COVER_IMAGE } from './constant';
-import { CHANNEL_TYPES } from '../constants';
-
-// Define your array of images here
-const images = [
-  '../assets/amazon.png',
-  '../assets/youtube.jpeg',
-  '../assets/website.png',
-  // ... more image paths
-];
+import { CHANNEL_TYPE_VS_COVER_IMAGE, BLURB_VS_COVER_IMAGE } from './constant';
+import { CHANNEL_TYPES, BLURBS } from '../constants';
 
 function Linkees({
   headerAvatar,
@@ -24,8 +16,11 @@ function Linkees({
   cardItems: ItemType[];
   name: string;
 }): JSX.Element {
+  // Convert the cover images to an array
+  const imagesArray = Object.values(BLURB_VS_COVER_IMAGE);
+  
   // Select a random image from the array
-  const randomImage = images[Math.floor(Math.random() * images.length)];
+  const selectedImage = imagesArray[Math.floor(Math.random() * imagesArray.length)];
 
   return (
     <div className="App">
@@ -33,7 +28,7 @@ function Linkees({
       <div className="container row">
         <a href="https://michael.muthukrishna.com/book" target="_blank" rel="noopener noreferrer">
           <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
-            <img className="cover" src={randomImage} alt="" />
+            <img className="cover" src={selectedImage} alt="" />
           </div>
         </a>
       </div>
