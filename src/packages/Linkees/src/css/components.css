@@ -51,6 +51,11 @@ img {
   margin-bottom: 5%;
 }
 
+.top {
+  align-items: center;
+  margin-bottom: 5%;
+}
+
 a,
 a:hover {
   text-decoration: none;
