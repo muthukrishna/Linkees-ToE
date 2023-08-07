@@ -171,22 +171,22 @@ function BookLinks() {
       link: `https://www.amazon.${amazonDomains[countryCode] || 'com/Theory-Everyone-Science-Where-Going/dp/026204837X'}`,
     },
     {
-      title: `${publisherName[countryCode]} || ${publisherName["GB"]}`,
+      title: `${publisherName[countryCode] || ${publisherName["GB"]}}`,
       subtitle: '',
       type: CHANNEL_TYPES.LINKEDIN,
-      link: `${publisherDomains[countryCode]} || ${publisherDomains["GB"]}`,
+      link: `${publisherDomains[countryCode] || ${publisherDomains["GB"]}}`,
     },
     {
-      title: `${localBookstoreName[countryCode]}  || ${localBookstoreName["GB"]}`,
+      title: `${localBookstoreName[countryCode]  || ${localBookstoreName["GB"]}}`,
       subtitle: '',
       type: CHANNEL_TYPES.LINKEDIN,
-      link: `${localBookstoreDomains[countryCode]} || ${localBookstoreDomains["GB"]}`,
+      link: `${localBookstoreDomains[countryCode] || ${localBookstoreDomains["GB"]}}`,
     },
     {
-      title: `${anotherBookstoreName[countryCode]} || ${anotherBookstoreName["US"]}`,
+      title: `${anotherBookstoreName[countryCode] || ${anotherBookstoreName["US"]}}`,
       subtitle: '',
       type: CHANNEL_TYPES.LINKEDIN,
-      link: `${anotherBookstoreDomains[countryCode]} || ${anotherBookstoreDomains["US"]}`,
+      link: `${anotherBookstoreDomains[countryCode] || ${anotherBookstoreDomains["US"]}}`,
     },
   ];
 
