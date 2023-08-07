@@ -88,13 +88,15 @@ function Linkees({
     <div className="App">
       <Header avatar={headerAvatar} name={name} />
       <div className="container top">
+      <a href="https://michael.muthukrishna.com/book" target="_blank" rel="noopener noreferrer">
           <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
-            <p className="blurb">
+            <p className="blurb">  
             “{randomQuote.text}”
             <br/><br/>
             - {randomQuote.author}
             </p>
           </div>
+          </a>
       </div>
       <div className="container row">
         {cardItems.map((item, i: number) => {
