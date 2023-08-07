@@ -103,7 +103,7 @@ function BookLinks() {
   const localBookstoreName: { [key: string]: string } = {
     'US': 'Penguin Random House',
     'AU': 'Dymocks',
-    'GB': 'Bookshop.org',
+    'GB': 'Waterstones',
     'DE': 'Hugendubel',
     'CA': 'Archambault',
     'BR': 'Fnac',
@@ -144,7 +144,7 @@ function BookLinks() {
   const anotherBookstoreName: { [key: string]: string } = {
     'US': 'Bookshop.org',
     'AU': 'Booktopia',
-    'GB': 'Waterstones',
+    'GB': 'Bookshop.org',
     'DE': 'Weltbild',
     'CA': 'Chapters Indigo',
     'BR': 'Livraria Cultura',
@@ -200,7 +200,7 @@ function BookLinks() {
     };
     
     const BOOKSTORE2_BY_COUNTRY: { [key: string]: string } = {
-      'US': CHANNEL_TYPES.MIT,
+      'US': CHANNEL_TYPES.GB1,
       'AU': CHANNEL_TYPES.AU2,
       'GB': CHANNEL_TYPES.GB2,
       'DE': CHANNEL_TYPES.DE2,
