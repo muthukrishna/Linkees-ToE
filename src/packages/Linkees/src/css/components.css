@@ -112,7 +112,7 @@ p {
 /* Smaller font size for smaller windows */
 @media (max-width: 768px) {
   .blurb {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
