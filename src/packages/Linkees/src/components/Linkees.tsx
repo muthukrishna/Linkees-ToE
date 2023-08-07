@@ -95,9 +95,9 @@ function Linkees({
       <a href="https://michael.muthukrishna.com/book" target="_blank" rel="noopener noreferrer">
           <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
             <p className="blurb">  
-            “{randomQuote.text}”
+            “{selectedQuote.text}”
             <br/><br/>
-            - {randomQuote.author}
+            - {selectedQuote.author}
             </p>
           </div>
           </a>
