@@ -92,13 +92,13 @@ function Linkees({
     <div className="App">
       <Header avatar={headerAvatar} name={name} />
       <div className="container top">
-          <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
-            <p className="blurb">  
+      <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }} onClick={handleQuoteClick}>
+          <p className="blurb">
             “{selectedQuote.text}”
-            <br/><br/>
+            <br /><br />
             - {selectedQuote.author}
-            </p>
-          </div>
+          </p>
+        </div>
       </div>
       <div className="container row">
         {cardItems.map((item, i: number) => {
