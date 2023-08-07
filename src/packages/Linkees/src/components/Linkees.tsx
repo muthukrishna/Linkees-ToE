@@ -28,7 +28,11 @@ function Linkees({
       <div className="container row">
         <a href="https://michael.muthukrishna.com/book" target="_blank" rel="noopener noreferrer">
           <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
-            <img className="blurb" src={selectedImage} alt="" />
+            <p class="blurb">
+            Deftly wielding newly-honed ideas and insights unsheathed from the rapidly emerging science of cultural evolution, Muthukrishna confronts and analyzes some of the major challenges facing humanity, from rising energy costs and accelerating climate change to growing economic inequality and declining democracies. Rooted in a new theory of human nature, A Theory of Everyone flavorfully mixes a stunning breadth of scholarship with an impressive knowledge of pop-culture and current issues, boldly going where most social scientists fear to tread. Lucidly discussing ideas surrounding IQ, race, sex differences, inheritance taxes, religion, Microsoft and even monogamy, readers are treated to a fascinating intellectual flight that thoughtfully offers many new perspectives on old issues. Buckle up!
+            <br/>
+            - Joseph Henrich, Professor of Human Evolutionary Biology, Harvard University and author of The WEIRDest People in the World and The Secret of Our Success.
+            </p>
           </div>
         </a>
       </div>
