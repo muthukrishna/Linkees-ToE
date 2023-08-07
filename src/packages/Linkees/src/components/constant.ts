@@ -20,6 +20,8 @@ import ca1 from '../assets/ca-bookstore1.png';
 import ca2 from '../assets/ca-bookstore2.png';
 import de1 from '../assets/de-bookstore1.png';
 import de2 from '../assets/de-bookstore2.png';
+import fr1 from '../assets/de-bookstore1.png';
+import fr2 from '../assets/de-bookstore2.png';
 import gb1 from '../assets/gb-bookstore1.png';
 import gb2 from '../assets/gb-bookstore2.png';
 import hachette from '../assets/hachette-global.png';
