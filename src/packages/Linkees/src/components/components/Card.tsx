@@ -27,7 +27,6 @@ function Card(props: ICard): JSX.Element {
         <img className="cover" src={props.cover} alt=""></img>
         <div className="data">
           <h2>{props.title}</h2>
-          <p>{props.subtitle}</p>
         </div>
       </motion.div>
     </a>
