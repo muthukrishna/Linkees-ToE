@@ -89,7 +89,7 @@ function Linkees({
       <Header avatar={headerAvatar} name={name} />
       <div className="container top">
           <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }}>
-            <p class="blurb">
+            <p className="blurb">
             {randomQuote.text}
             <br/>
             - {randomQuote.author}
