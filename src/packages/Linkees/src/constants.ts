@@ -14,6 +14,7 @@ export const CHANNEL_TYPES = {
   BASIC: 'BASIC',
   PENGUIN: 'PENGUIN',
   AU1: 'AU1',
+  US1: 'US1',
   GB1: 'GB1',
   DE1: 'DE1',
   CA1: 'CA1',

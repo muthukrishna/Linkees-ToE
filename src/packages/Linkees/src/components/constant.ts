@@ -13,6 +13,7 @@ import twitter from '../assets/twitter.png';
 import nl1 from '../assets/nl-bookstore1.png';
 import au1 from '../assets/au-bookstore1.png';
 import au2 from '../assets/au-bookstore2.png';
+import us1 from '../assets/us-bookstore1.png';
 import basic from '../assets/basicbooks.png';
 import br1 from '../assets/br-bookstore1.png';
 import br2 from '../assets/br-bookstore2.png';
@@ -68,6 +69,7 @@ export const CHANNEL_TYPE_VS_COVER_IMAGE = {
   [CHANNEL_TYPES.BASIC]: basic,
   [CHANNEL_TYPES.PENGUIN]: penguin,
   [CHANNEL_TYPES.AU1]: au1,
+  [CHANNEL_TYPES.US1]: us1,
   [CHANNEL_TYPES.GB1]: gb1,
   [CHANNEL_TYPES.DE1]: de1,
   [CHANNEL_TYPES.CA1]: ca1,

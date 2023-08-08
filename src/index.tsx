@@ -81,7 +81,7 @@ function BookLinks() {
   };
 
   const localBookstoreDomains: { [key: string]: string } = {
-    'US': 'https://www.penguinrandomhouse.com/books/730855/a-theory-of-everyone-by-michael-muthukrishna/',
+    'US': 'https://www.barnesandnoble.com/w/a-theory-of-everyone-michael-muthukrishna/1143022803?ean=9780262048378',
     'AU': 'https://www.dymocks.com.au/book/a-theory-of-everyone-by-michael-muthukrishna-9781399810630',
     'DE': 'https://www.hugendubel.de/de/buch_gebunden/michael_muthukrishna-a_theory_of_everyone-45910061-produkt-details.html',
     'GB': 'https://www.waterstones.com/book/a-theory-of-everyone/michael-muthukrishna/9781399810630',
@@ -101,7 +101,7 @@ function BookLinks() {
   };
 
   const localBookstoreName: { [key: string]: string } = {
-    'US': 'Penguin Random House',
+    'US': 'Barnes & Noble',
     'AU': 'Dymocks',
     'GB': 'Waterstones',
     'DE': 'Hugendubel',
@@ -200,7 +200,7 @@ function BookLinks() {
     };
     
     const BOOKSTORE2_BY_COUNTRY: { [key: string]: string } = {
-      'US': CHANNEL_TYPES.GB1,
+      'US': CHANNEL_TYPES.GB2,
       'AU': CHANNEL_TYPES.AU2,
       'GB': CHANNEL_TYPES.GB2,
       'DE': CHANNEL_TYPES.DE2,
