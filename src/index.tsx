@@ -230,13 +230,13 @@ function BookLinks() {
     {
       title: `${publisherName[countryCode] || publisherName["GB"]}`,
       subtitle: '',
-      type: PUBLISHER_BY_COUNTRY[countryCode] ?? PUBLISHER_BY_COUNTRY['US'],
+      type: PUBLISHER_BY_COUNTRY[countryCode] ?? PUBLISHER_BY_COUNTRY['GB'],
       link: `${publisherDomains[countryCode] || publisherDomains["GB"]}`,
     },
     {
       title: `${localBookstoreName[countryCode]  || localBookstoreName["GB"]}`,
       subtitle: '',
-      type: BOOKSTORE1_BY_COUNTRY[countryCode] ?? BOOKSTORE2_BY_COUNTRY['US'],
+      type: BOOKSTORE1_BY_COUNTRY[countryCode] ?? BOOKSTORE2_BY_COUNTRY['GB'],
       link: `${localBookstoreDomains[countryCode] || localBookstoreDomains["GB"]}`,
     },
     {
