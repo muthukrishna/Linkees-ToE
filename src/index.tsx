@@ -181,7 +181,7 @@ function BookLinks() {
     };
 
     const BOOKSTORE1_BY_COUNTRY: { [key: string]: string } = {
-      'US': CHANNEL_TYPES.PENGUIN,
+      'US': CHANNEL_TYPES.US1,
       'AU': CHANNEL_TYPES.AU1,
       'GB': CHANNEL_TYPES.GB1,
       'DE': CHANNEL_TYPES.DE1,
