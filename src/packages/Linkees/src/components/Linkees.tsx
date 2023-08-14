@@ -87,6 +87,10 @@ function Linkees({
       text: "A Theory of Everyone delivers both an overarching theory and a practical toolkit for understanding and improving the human condition. What could be more important than that?",
       author: "David Sloan Wilson, author of This View of Life: Completing the Darwinian Revolution",
     },
+    {
+      text: "An astonishing book that will change the way you think about human history and our future.",
+      author: "Nichola Raihani, Professor of Evolution and Behaviour, UCL and author of The Social Instinct: How Cooperation Shaped the World",
+    },
   ];
   
   const [selectedQuote, setSelectedQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
