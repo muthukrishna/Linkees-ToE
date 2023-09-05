@@ -95,6 +95,10 @@ function Linkees({
       text: "“The world is breaking” and society is becoming ever-more polarized – yet, a better realm is around the corner, if only we can stimulate our collective brains. In his magnificent A Theory of Everyone, polymath Michael Muthukrishna teaches us how to govern in the twenty-first century, how to address inequalities, and how to trigger creative explosions, improve the internet, and become brighter – all by harnessing the power of cultural evolution. A marvellous rich and entertaining read.",
       author: "Kevin Lala (formerly Laland), Professor of Behavioural and Evolutionary Biology, University of St Andrews, author of Darwin's unfinished symphony: How culture made the human mind",
     },
+    {
+      text: "If you hear the engine of human prosperity sputtering and see the world going dark, Michael Muthukrishna is knocking on your door with a lantern and a toolbox. With wisdom and precision, A Theory of Everyone makes sense of our historical moment and gives credible hope that, after some retooling, human energy and ingenuity can prevail.",
+      author: "Joshua Greene, Harvard University, author of Moral Tribes: Emotion, Reason, and the Gap Between Us and Them",
+    },
   ];
   
   const [selectedQuote, setSelectedQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
