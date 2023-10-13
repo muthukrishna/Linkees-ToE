@@ -99,6 +99,10 @@ function Linkees({
       text: "If you hear the engine of human prosperity sputtering and see the world going dark, Michael Muthukrishna is knocking on your door with a lantern and a toolbox. With wisdom and precision, A Theory of Everyone makes sense of our historical moment and gives credible hope that, after some retooling, human energy and ingenuity can prevail.",
       author: "Joshua Greene, Harvard University, author of Moral Tribes: Emotion, Reason, and the Gap Between Us and Them",
     },
+    {
+      text: "Muthukrishna’s A Theory of Everyone is remarkable. This highly novel book is provocative, integrative, and unapologetically ambitious as it guides us towards a utopian future. Muthukrishna brings a unique international and interdisciplinary skillset - cutting across software engineering, psychology, anthropology, and economics - to offer a systems thinking approach to explain where we’ve come from and where we’re heading. The book proposes four laws of life - energy, innovation, cooperation, and evolution – which sustain cells, individuals, species, social networks, and nations. By understanding these laws of life, we can better design societies that can more effectively harness our potential. Relentlessly optimistic, the book offers thoughts for how to tweak taxes, social media, immigration law, politics, schools, and corporations, in an effort to build a better world.",
+      author: "Steven J Heine, author of DNA Is Not Destiny – The Remarkable, Completely Misunderstood Relationship between You and Your Genes",
+    },
   ];
   
   const [selectedQuote, setSelectedQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
