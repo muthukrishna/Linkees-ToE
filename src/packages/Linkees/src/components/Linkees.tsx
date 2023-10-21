@@ -103,6 +103,10 @@ function Linkees({
       text: "Muthukrishna’s A Theory of Everyone is remarkable. This highly novel book is provocative, integrative, and unapologetically ambitious as it guides us towards a utopian future. Muthukrishna brings a unique international and interdisciplinary skillset - cutting across software engineering, psychology, anthropology, and economics - to offer a systems thinking approach to explain where we’ve come from and where we’re heading. The book proposes four laws of life - energy, innovation, cooperation, and evolution – which sustain cells, individuals, species, social networks, and nations. By understanding these laws of life, we can better design societies that can more effectively harness our potential. Relentlessly optimistic, the book offers thoughts for how to tweak taxes, social media, immigration law, politics, schools, and corporations, in an effort to build a better world.",
       author: "Steven J Heine, author of DNA Is Not Destiny – The Remarkable, Completely Misunderstood Relationship between You and Your Genes",
     },
+    {
+      text: "Ambitious and breathtaking sweep, a new perspective on the human condition... Muthukrishna shows what really makes us smart, and it's not what most of us think it is ... revelatory.",
+      author: "David Halpern, author of Inside the Nudge Unit",
+    },
   ];
   
   const [selectedQuote, setSelectedQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
