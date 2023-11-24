@@ -120,6 +120,13 @@ function Linkees({
     <div className="App">
       <Header avatar={headerAvatar} name={name} />
       <div className="container top">
+      <div className="container row">
+        {cardItems.map((item, i: number) => {
+          const coverImage: string =
+            item.image ?? CHANNEL_TYPE_VS_COVER_IMAGE[item.type] ?? CHANNEL_TYPE_VS_COVER_IMAGE[CHANNEL_TYPES.WEBSITE];
+          return <Card i={i} title={item.title} subtitle={item.subtitle} link={item.link} cover={coverImage} />;
+        })}
+      </div>
       <div className="Card twelve columns" style={{ opacity: 1, transform: 'none' }} onClick={handleQuoteClick}>
           <p className="blurb">
             “{selectedQuote.text}”
@@ -127,13 +134,6 @@ function Linkees({
             - {selectedQuote.author}
           </p>
         </div>
-      </div>
-      <div className="container row">
-        {cardItems.map((item, i: number) => {
-          const coverImage: string =
-            item.image ?? CHANNEL_TYPE_VS_COVER_IMAGE[item.type] ?? CHANNEL_TYPE_VS_COVER_IMAGE[CHANNEL_TYPES.WEBSITE];
-          return <Card i={i} title={item.title} subtitle={item.subtitle} link={item.link} cover={coverImage} />;
-        })}
       </div>
       <Footer />
     </div>
