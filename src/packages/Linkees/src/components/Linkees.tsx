@@ -119,7 +119,6 @@ function Linkees({
   return (
     <div className="App">
       <Header avatar={headerAvatar} name={name} />
-      <div className="container top">
       <div className="container row">
         {cardItems.map((item, i: number) => {
           const coverImage: string =
